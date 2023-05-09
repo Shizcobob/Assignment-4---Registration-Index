@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <h1>
+        <emph><font-size: 100px></font-size:>Registration Form</emph>
+    </h1>
+</head>
+
+<body>
+    <p>First Name: *</p><input type="text">
+    <p>Last Name: *</p><input type="text">
+    <p>Email Address: *</p><input type="text">
+    <p>Password: *</p><input type="password">
+    <p> Confirm Password: *</p><input type="password">
+    <p>Birthday:</p><input type="date">
+    <div>
+        <p>Gender Identity:</p>
+        <input type="radio" name="Gender Identity" value="Male" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender Identity" value="Female" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender Identity" value="Non-binary" id="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" name="Gender Identity" value="I prefer not to answer" id="I prefer not to answer">
+        <label for="I prefer not to answer">I prefer not to answer</label>
+    </div>
+    <div>
+        <p>A short description about myself:</p><textarea name="Description" cols="20" rows="2"></textarea>
+    </div>
+    <div>
+        <p>Favorite Language:</p>
+        <select name="Favorite Language">
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </div>
+    <input type="checkbox" name="ReceiveEmail" id="ReceiveEmail">
+    <label for="ReceiveEmail">Yes, I would like to receive periodic email updates</label>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>
+    <p>* Indicates a required field</p>
+
+</html>
